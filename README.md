@@ -19,7 +19,11 @@ RAgent is an AI-powered co-pilot designed to assist users in understanding, sele
 - *Resolve Errors*: Stuck with a confusing error message in your R console? RAgent can help diagnose and suggest fixes.
 - *Choose the Right Method*: Unsure what statistical method is best for your variables or research question? Let RAgent recommend and explain the best options.
 
-**Examples**
+**Prompt Development + Testing**
+
+RAgent was design with the users in mind. Prompt engineering focused on concise and educational responses, minimizing fluff and maximizing output. RAgent was tested for usability outside of R code questions, and the prompt was subsequently adjusted in order to prevent answering questions related to, for example, Python code.
+
+**Use Examples**
 Read in the provided .csv file:
 read.csv("NVRD2023.csv")
 
