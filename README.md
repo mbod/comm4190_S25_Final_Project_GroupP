@@ -24,6 +24,7 @@ RAgent is an AI-powered co-pilot designed to assist users in understanding, sele
 RAgent was design with the users in mind. Prompt engineering focused on concise and educational responses, minimizing fluff and maximizing output. RAgent was tested for usability outside of R code questions, and the prompt was subsequently adjusted in order to prevent answering questions related to, for example, Python code.
 
 **Use Examples**
+
 Read in the provided .csv file:
 read.csv("NVRD2023.csv")
 
